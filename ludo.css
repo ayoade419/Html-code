@@ -1,0 +1,33 @@
+	table{
+		border:solid 1px;
+		border-collapse: collapse;
+	}
+	.green-cell{
+		height: 30px;
+		width: 30px;
+		background-color: green
+	}
+	.blue-cell{
+		height: 30px;
+		width: 30px;
+		background-color: blue
+	}
+	.red-cell{
+		height: 30px;
+		width: 30px;
+		background-color: red
+	}
+	.yellow-cell{
+		height: 30px;
+		width: 30px;
+		background-color: yellow
+	}
+	.white-cell{
+		height: 30px;
+		width: 30px;
+		border: solid;
+		background-color: white;
+	}
+	body{
+		background-color: black;
+	}

@@ -1,0 +1,71 @@
+		<style type="text/css">
+		.container{
+			height: 600px;
+			width: 1500px;
+	    	background-color: midnightblue;
+		}
+		.ball{
+			height: 20px;
+			width: 20px;
+			border-radius: 10px;
+			background-color: white;
+			animation: movesideways 3s infinite ease-in-out;
+			position: relative;
+			animation-iteration-count: 1;
+    		animation-direction: alternate;
+		}
+		@keyframes movesideways{
+			0%{
+				left: 0;
+			}
+			50%{
+				left: 1500px;
+			}
+			100%{
+				left: 0;
+			}
+		}
+		.ballz{
+			height: 20px;
+			width: 20px;
+			border-radius: 10px;
+			background-color: white;
+			animation: bottom 3s infinite ease-in-out;
+			position: relative;
+			animation-iteration-count: 1;
+    		animation-direction: alternate;	
+		}
+		@keyframes bottom{
+			0%{
+				bottom: 0;
+			}
+			50%{
+				bottom: -580px;
+			}
+			100%{
+				bottom: 0;
+			}
+		}
+		.need{
+			height: 20px;
+			width: 20px;
+			border-radius: 10px;
+			background-color: white;
+			margin-bottom: 740px;
+			animation: top 3s infinite ease-in-out;
+			position: relative;
+			animation-iteration-count: 1;
+    		animation-direction: alternate;	
+		}
+		@keyframes top{
+			0%{
+				top: 0;
+			}
+			50%{
+				top: -580px;
+			}
+			100%{
+				top: 0px;
+			}
+		}
+		</style>

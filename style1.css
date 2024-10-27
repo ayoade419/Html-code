@@ -1,0 +1,75 @@
+	.book{
+			height: 500px;
+		   	width: 1000px;
+		   	background-color: bisque;
+		}
+		.hook{
+			height: 30px;
+			width: 30px;
+			border-radius: 15px;
+			background-color: black;
+			animation: movesideways 3s infinite ease-in-out;
+			position: relative;
+			animation-iteration-count: infinite;
+    		animation-direction: alternate;
+           	transition: left;
+           	top: 0px;
+		}
+			@keyframes movesideways{
+			0%{
+				left: 0;
+			}
+			50%{
+				left: 970px;
+			} 
+			100%{
+				left: 0;
+			}
+		}
+		.rook{
+			height: 30px;
+			width: 30px;
+			border-radius: 15px;
+			background-color: black;
+			animation: top 3s infinite ease-in-out;
+			position: relative;
+			animation-iteration-count: infinite;
+    		animation-direction: alternate;
+           	transition: left;
+           	margin-top: 430px;
+		}
+		@keyframes top{
+			0%{
+				bottom: 0;
+			}
+			50%{
+				bottom: 470px;
+			} 
+			100%{
+				bottom: 0;
+			}
+		}
+		.brook{
+			height: 30px;
+			width: 30px;
+			border-radius: 15px;
+			background-color: black;
+			animation: top 3s infinite ease-in-out;
+			position: relative;
+			animation-iteration-count: infinite;
+    		animation-direction: alternate;
+           	transition: left;
+           	margin-left: 970px;
+           	margin-top: -50px;
+		}
+			@keyframes top{
+			0%{
+				bottom: 0;
+			}
+			50%{
+				bottom: 490px;
+			} 
+			100%{
+				bottom: 0;
+			}
+		}
